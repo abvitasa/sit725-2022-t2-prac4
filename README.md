@@ -15,16 +15,15 @@ npm run start
 
 ## Content
 
-<img src="public/images/readme/page_1.png" margin="auto" width="500">
+<img src="public/images/readme/1.png" margin="auto" width="500"> <img src="public/images/readme/2.png" width="500">
 
 ---
 
-<img src="public/images/readme/page_2.png" width="500">
+<img src="public/images/readme/4.png" width="500"><img src="public/images/readme/5.png" width="500">
 
 ---
 
-<img src="public/images/readme/page_3.png" width="500">
-
+<img src="public/images/readme/7.png" width="800">
 ## Progress
 
 > | Practical | Status |

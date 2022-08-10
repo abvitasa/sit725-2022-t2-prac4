@@ -6,6 +6,29 @@ const getProjects = () => {
   });
 };
 
+const addProjectToApp = (project) => {
+  $.ajax({
+    url: '/api/projects',
+    data: project,
+    type: 'POST',
+    success: (result) => {
+      alert(result.message);
+      location.reload();
+    },
+  });
+};
+
+const submitForm = () => {
+  let formData = {};
+  formData.title = $('#title').val();
+  formData.image = $('#image').val();
+  formData.link = $('#link').val();
+  formData.description = $('#description').val();
+
+  console.log('Form Data Submitted: ', formData);
+  addProjectToApp(formData);
+};
+
 const addCards = (cardList) => {
   cardList.forEach((item) => {
     let text = `<div class="col s12 m4">
@@ -37,5 +60,8 @@ const addCards = (cardList) => {
 $(document).ready(function () {
   $('.sidenav').sidenav();
   $('.modal').modal();
+  $('#formSubmit').click(() => {
+    submitForm();
+  });
   getProjects();
 });
