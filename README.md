@@ -6,8 +6,6 @@ This repository is for SIT725 Prac-4: [Link](https://github.com/abvitasa/sit725-
 
 ## Run The Application
 
----
-
 Open project in VS Code and open terminal. Enter the following command:
 
 ```
@@ -16,8 +14,6 @@ npm run start
 ```
 
 ## Content
-
----
 
 <img src="public/images/readme/page_1.png" margin="auto" width="500">
 
@@ -31,8 +27,6 @@ npm run start
 
 ## Progress
 
----
-
 > | Practical | Status |
 > | :-------- | ------ |
 > | 1         | ✅     |
@@ -41,8 +35,6 @@ npm run start
 > | 4         | ✅     |
 
 ## Copyrights
-
----
 
 This is a public project that means anyone can use this project
 
